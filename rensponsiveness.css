@@ -1,0 +1,466 @@
+@media screen and (max-width: 1025px) {
+
+    .sec2-div1>h1 {
+        font-size: 280px;
+    }
+
+.stats-container {
+    display: grid !important;           /* override d-flex */
+    grid-template-columns: 1fr 1fr;     /* two equal columns */
+    gap: 1rem;                          /* space between items */
+  }
+
+  .stats-container > div {
+    width: 100%;
+    justify-content: center;          
+}
+
+    .sec4-div1 {
+        padding: 20px 20px;
+        margin: 20px 0px 10px 10px;
+    }
+
+    .sec4-div1 h1 {
+        font-size: 240px;
+    }
+
+    .web-dev {
+        height: 350px;
+        width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+ 
+    .sec2-div1>h1 {
+        font-size: 220px;
+    }
+
+    .ocp-div>h1 {
+        font-size: 25px;
+    }
+
+    .sec4-div1 {
+        height: fit-content;
+        padding: 10px 10px;
+        margin: 10px 0px 10px 10px;
+    }
+
+    .sec4-div1 h1 {
+        font-size: 168px;
+    }
+
+    .aim>h1 {
+        font-size: 16px;
+    }
+
+    .perfect>h1 {
+        font-size: 145px;
+    }
+
+    .artisan {
+        height: fit-content;
+    }
+
+    .artisan>h1 {
+        font-size: 160px;
+    }
+
+    .horizontal-accordion {
+        /* display: grid !important; */
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .lastsec{
+       justify-items: center !important; 
+    }
+}
+@media screen and (max-width: 500px) {
+    .last-sec{
+        display: none;
+    }
+    .sec2-div1{
+        margin-top: 100px;
+    }
+        .sec2-div1>h1{
+            font-size: 110px;
+        }
+            .ocp-div>h1{
+                font-size: 50px;
+            }
+        .sec3-div1{
+            display: none;
+        }
+        .sec3-div2{
+            padding: 5px;
+            width: 100%;
+            border: none;
+        }
+        .sec4{
+            display: none;
+        }
+        .upcdiv2{
+            display: none;
+        }
+        .upcdiv1{
+            border: none;
+            width: 100%;
+        }
+        .upcdiv1>h1{ 
+            font-size: 42px;
+        }
+        .big-div1{
+            border: none;
+            width: 100%;
+        }
+        .big-div2{
+            display: none;
+        }
+        .b-r{
+            display: none;
+        }
+        .b4-the{
+            display: none;
+        }
+        .after-fst{
+            display: none;
+        }
+        .the{
+            padding: none !important;
+        }
+        .working{
+            display: none   ;
+        }
+        .thefst{
+            width: 100%;
+        }
+        .artisan-head{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .reason{
+            display: none;
+        }
+        .artisan{
+            width: fit-content;
+        }
+        .artisan>h1{
+            font-size: 140px;
+        }
+        .horizontal-accordion{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+    
+}
+@media screen and (max-width: 426px) {
+    .last-sec{
+        display: none;
+    }
+    .sec2-div1{
+        margin-top: 100px;
+    }
+        .sec2-div1>h1{
+            font-size: 110px;
+        }
+            .ocp-div>h1{
+                font-size: 50px;
+            }
+        .sec3-div1{
+            display: none;
+        }
+        .sec3-div2{
+            padding: 5px;
+            width: 100%;
+            border: none;
+        }
+        .sec4{
+            display: none;
+        }
+        .upcdiv2{
+            display: none;
+        }
+        .upcdiv1{
+            border: none;
+            width: 100%;
+        }
+        .upcdiv1>h1{ 
+            font-size: 42px;
+        }
+        .big-div1{
+            border: none;
+            width: 100%;
+        }
+        .big-div2{
+            display: none;
+        }
+        .b-r{
+            display: none;
+        }
+        .b4-the{
+            display: none;
+        }
+        .after-fst{
+            display: none;
+        }
+        .the{
+            padding: 0 !important;
+        }
+        .working{
+            display: none   ;
+        }
+        .thefst{
+            width: 100%;
+        }
+        .artisan-head{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .reason{
+            display: none;
+        }
+        .artisan{
+            width: fit-content;
+        }
+        .artisan>h1{
+            font-size: 140px;
+        }
+        .horizontal-accordion{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+    
+}
+@media screen and (max-width: 396px) {
+        .sec2-div1>h1{
+            font-size: 100px;
+        }
+        .full-ocp>h1{
+            font-size: 55px;
+        }
+        .perfect>h1 {
+            font-size: 128px;
+        }
+        .artisan>h1{
+            font-size: 120px;
+        }
+    
+}
+@media screen and (max-width: 376px) {
+        .sec2-div1>h1{
+            font-size: 100px;
+        }
+        .full-ocp>h1{
+            font-size: 55px;
+        }
+        .perfect>h1 {
+            font-size: 128px;
+        }
+        .artisan>h1{
+            font-size: 120px;
+        }
+    
+}
+@media screen and (max-width: 350px) {
+    .sec2-div1>h1{
+        font-size: 80px;
+    }
+    .full-ocp>h1{
+        font-size: 43px;
+    }
+    .perfect>h1{
+        font-size: 107px;
+    }
+        .artisan>h1{
+            font-size: 96px;
+        }
+}
+@media screen and (max-width: 321px) {
+    .sec2-div1>h1{
+        font-size: 80px;
+    }
+    .full-ocp>h1{
+        font-size: 43px;
+    }
+    .perfect>h1{
+        font-size: 107px;
+    }
+        .artisan>h1{
+            font-size: 96px;
+        }
+}
+
+
+/* -----------------------------
+  Responsive overrides for accordion panels
+  Paste this AFTER your base accordion CSS
+   - keeps your widths and base layout intact
+   - reduces pull distances to avoid horizontal overflow
+   - makes mobile stack centered + staggered animation
+------------------------------ */
+
+/* safe defaults using clamped CSS variables (no change to base code needed) */
+.horizontal-panels {
+  box-sizing: border-box;
+  /* clamp pull distance so it never blows out on small viewports */
+  --pull: clamp(80px, 12vw, 180px);
+  --o1: clamp(60px, 6vw, 60px);  /* offset for card 1 */
+  --o2: clamp(30px, 4vw, 30px);  /* offset for card 2 */
+  --o3: 0px;                     /* center card */
+  --o4: clamp(30px, 4vw, 30px);  /* offset for card 4 */
+  overflow: visible; /* allow pulled card to be visible; pull is clamped so it shouldn't trigger page scroll */
+}
+
+/* override default stacked positions to use the clamped offsets */
+.horizontal-panels .panel:nth-child(1) {
+  transform: translateX(calc(-50% - var(--o1)));
+  z-index: 1;
+}
+.horizontal-panels .panel:nth-child(2) {
+  transform: translateX(calc(-50% - var(--o2)));
+  z-index: 2;
+}
+.horizontal-panels .panel:nth-child(3) {
+  transform: translateX(calc(-50% + var(--o3)));
+  z-index: 3;
+}
+.horizontal-panels .panel:nth-child(4) {
+  transform: translateX(calc(-50% + var(--o4)));
+  z-index: 4;
+}
+
+/* Pull-out behavior (left-side cards pull left, right-side pull right)
+   using the clamped --pull so it scales with viewport and won't overflow */
+.horizontal-panels .panel:nth-child(1):hover,
+.horizontal-panels .panel:nth-child(2):hover {
+  transform: translateX(calc(-50% - var(--pull))) scale(1.05);
+  z-index: 9999;
+}
+.horizontal-panels .panel:nth-child(3):hover,
+.horizontal-panels .panel:nth-child(4):hover {
+  transform: translateX(calc(-50% + var(--pull))) scale(1.05);
+  z-index: 9999;
+}
+
+/* reduce motion on prefer-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .horizontal-panels .panel,
+  .horizontal-panels .panel:hover {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ======================
+   Breakpoints
+   ====================== */
+
+/* --------- ≤ 1024px --------- */
+@media (max-width: 1024px) {
+  .horizontal-panels {
+    /* slightly smaller pull for medium screens */
+    --pull: clamp(70px, 10vw, 150px);
+  }
+
+  /* keep base widths from your original CSS (do not change width) */
+  .horizontal-panels {
+    height: 350px; /* reduce height to avoid long panels */
+  }
+
+  .panel .panel-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* --------- ≤ 768px --------- */
+@media (max-width: 768px) {
+  .horizontal-panels {
+    --pull: clamp(60px, 12vw, 120px);
+  }
+
+  .horizontal-panels {
+    height: 300px;
+  }
+
+  .panel .panel-title {
+    font-size: 1.1rem;
+  }
+
+  /* tighten the default overlap a bit so nothing squashes */
+  .horizontal-panels .panel:nth-child(1) { transform: translateX(calc(-50% - calc(var(--o1) * 0.8))); }
+  .horizontal-panels .panel:nth-child(2) { transform: translateX(calc(-50% - calc(var(--o2) * 0.8))); }
+  .horizontal-panels .panel:nth-child(3) { transform: translateX(calc(-50% + calc(var(--o3) * 0.8))); }
+  .horizontal-panels .panel:nth-child(4) { transform: translateX(calc(-50% + calc(var(--o4) * 0.8))); }
+}
+
+/* --------- ≤ 425px  (mobile: switch to vertical centered stack) --------- */
+@media (max-width: 425px) {
+  /* vertical layout */
+  .horizontal-panels {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    height: auto;
+    margin: 40px auto;
+    --pull: 0px; /* no left/right pulling on mobile layout */
+  }
+
+  /* panels become normal flow boxes and centered */
+  .horizontal-panels .panel {
+    position: relative !important;
+    left: auto !important;
+    transform: none !important;
+    width: 92% !important;   /* keep centered and responsive */
+    height: 220px !important;
+    z-index: auto !important;
+    transition: transform 0.25s ease, opacity 0.4s ease;
+    opacity: 0;
+    will-change: transform, opacity;
+  }
+
+  /* clickable area remains whole card */
+  .horizontal-panels .panel a { display: block; width:100%; height:100%; }
+
+  /* restore title sizing for mobile */
+  .panel .panel-title { font-size: 1rem; bottom: 16px; left: 14px; padding: 8px 12px; }
+
+  /* enable gentle scale on touch/hover */
+  .horizontal-panels .panel:hover { transform: scale(1.03); z-index: 10; opacity: 1; }
+
+  /* staggered fade/slide in on load */
+  .horizontal-panels .panel {
+    animation-name: fp_fadeSlideUp;
+    animation-duration: 560ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(.2,.9,.3,1);
+  }
+  .horizontal-panels .panel:nth-child(1) { animation-delay: 120ms; }
+  .horizontal-panels .panel:nth-child(2) { animation-delay: 260ms; }
+  .horizontal-panels .panel:nth-child(3) { animation-delay: 380ms; }
+  .horizontal-panels .panel:nth-child(4) { animation-delay: 500ms; }
+}
+
+/* --------- ≤ 375px adjustments --------- */
+@media (max-width: 375px) {
+  .horizontal-panels .panel { height: 200px !important; width: 95% !important; }
+  .panel .panel-title { font-size: 0.95rem; padding: 7px 10px; }
+}
+
+/* --------- ≤ 320px adjustments --------- */
+@media (max-width: 320px) {
+  .horizontal-panels .panel { height: 170px !important; width: 100% !important; }
+  .panel .panel-title { font-size: 0.85rem; padding: 6px 8px; bottom: 12px; left: 12px; }
+}
+
+/* ------------------------------
+   Mobile fade + slide animation
+   ------------------------------ */
+@keyframes fp_fadeSlideUp {
+  0% { opacity: 0; transform: translateY(22px); }
+  60% { opacity: 1; transform: translateY(-6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}

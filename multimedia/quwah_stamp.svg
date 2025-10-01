@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect x="5" y="5" width="290" height="290" fill="white" stroke="lightgray" stroke-width="2" stroke-dasharray="10,5"/>
+  <!-- Emoji sun replaced by 💪 -->
+  <text x="150" y="100" font-size="60" text-anchor="middle" dominant-baseline="middle">💪</text>
+  <!-- Signature-like path spelling quwah -->
+  <path d="M60 180 Q70 160 80 180 T100 180 Q110 160 120 180 T140 180" fill="transparent" stroke="black" stroke-width="2"/>
+  <text x="20" y="230" font-family="Arial" font-size="14" font-weight="bold">NAME:</text>
+  <text x="80" y="230" font-family="Arial" font-size="14">Quwah Dev</text>
+  <text x="20" y="250" font-family="Arial" font-size="14" font-weight="bold">DATE:</text>
+  <text x="80" y="250" font-family="Arial" font-size="14">12/10/1993</text>
+</svg>
