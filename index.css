@@ -235,7 +235,7 @@
 .tt-secdiv1 h5,
 .last-secdiv2 h5,
 .last-secdiv1 h5,
-.last-secdiv2 p, .hk-link a {
+.last-secdiv2 p, .hk-link a, .myprj h5 {
     font-family: "Quintessential", serif;
     font-weight: 400;
     font-style: normal;
@@ -411,7 +411,7 @@
     background-clip: text;
 }
 
-.reason>h3 {
+.reason>h3, .myprj h1 {
     font-family: "New Rocker", system-ui;
     font-weight: 600;
     font-style: normal;
@@ -429,7 +429,7 @@
   height: 400px;
 }
 
-/* Base panel styles */
+
 .panel1 {
   position: absolute;
   top: 0;
