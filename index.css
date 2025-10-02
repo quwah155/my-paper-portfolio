@@ -6,7 +6,41 @@
 }
 
 
+.wholebody {
+  background-image: url("./Multimedia/bg-body.jpg");
+  background-image: linear-gradient("to bottom;");
+  margin: auto;
+  width: 100%;
+  animation-name: intro;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  transition: 2s transform ease;
+  font-family: "Playfair Display", serif;
+  overflow: hidden;
+}
+@keyframes intro {
+  0% {
+    width: 40%;
+    height: 70%;
+    transform: translateY(500px) rotate(0deg);
+  }
 
+  40% {
+    width: 40%;
+    transform: translateY(100px) rotate(0deg);
+    height: 100%;
+  }
+  90% {
+    width: 60%;
+    height: 100%;
+    transform: translate(0px) rotate(-360deg);
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    transform: translate(0px) rotate(-720deg);
+  }
+}
 
 /* Navbar */
 .navbar {
