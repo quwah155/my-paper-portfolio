@@ -6,7 +6,7 @@
 }
 
 
-.wholebody {
+.whole.body {
   background-image: url("./Multimedia/bg-body.jpg");
   background-image: linear-gradient("to bottom;");
   margin: auto;
@@ -166,7 +166,10 @@
 .last-sec  {
     cursor: grab;
 }
-
+.last-seclink a{
+  text-decoration: 0.5px line-through;
+  color: #000;
+}
 .last-secdiv1 img:hover {
     transform: scale(0.8);
 }
@@ -179,8 +182,8 @@
 }
 
 .sec2-div1>h1 {
-    font-size: 360px;
-    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 310px;
+  font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 900;
@@ -192,21 +195,29 @@
 }
 
 .sec3-div1 {
-    width: 25%;
+    width: 35%;
     margin: 10px 0px;
     padding: 0px 10px;
     border-right: 1px solid black;
 }
 
 .ocp-div>h1 {
-    font-family: "New Rocker", system-ui;
-    font-weight: 400;
+     font-family: "Libre Bodoni", serif;
+  /* font-optical-sizing: auto; */
+    font-weight: 600;
     font-style: normal;
     width: 100%;
-    font-size: 34px;
-
+    font-size: 35px;
+text-decoration: 0.5px line-through;
 }
-
+.ocp-wd{
+       font-family: "Libre Bodoni", serif;
+  /* font-optical-sizing: auto; */
+    font-weight: 600;
+    font-style: normal;
+    width: 100%;
+    font-size: 40px !important;
+}
 .ctn-div>img {
     border: 1px solid black;
     margin-right: 10px;
@@ -219,24 +230,30 @@
 }
 
 .demop {
-    font-family: "Trade Winds", system-ui;
+ font-family: "Ledger", serif;
     font-weight: 500;
     font-size: 22px;
 }
 
 .a-div,
 .great {
-    font-family: "Trade Winds", system-ui;
+    font-family: "Ledger", serif;
     font-weight: 300;
     font-size: 40px;
 }
-
-.aboutme-div>p,
+.aboutme-div>p{
+    font-family: "Ledger", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14.5px;
+    text-decoration: none;
+    color: #000;
+}
 .tt-secdiv1 h5,
 .last-secdiv2 h5,
 .last-secdiv1 h5,
 .last-secdiv2 p, .hk-link a, .myprj h5 {
-    font-family: "Quintessential", serif;
+    font-family: "Ledger", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
@@ -245,18 +262,19 @@
 }
 
 .sec3-div2 {
-    width: 73%;
+    width: 65%;
     margin: 10px 5px;
     padding: 15px 5px;
 }
 
 .full-ocp>h1 {
-    font-family: "New Rocker", system-ui;
+    font-family: "Libre Bodoni", serif;
+  /* font-optical-sizing: auto; */
     font-weight: 600;
     font-style: normal;
     width: 100%;
-    font-size: 60px;
-    text-decoration: line-through;
+    font-size: 30px;
+    text-decoration: 0.5px line-through;
 }
 .sec4{
     display: flex;
@@ -272,8 +290,8 @@
 }
 
 .sec4-div1>h1 {
-    font-size: 280px;
-    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 200px;
+  font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 600;
@@ -303,7 +321,8 @@
 .upcdiv2>h1,
 .three-head>h1,
 .aim>h1 {
-    font-family: "New Rocker", system-ui;
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 40px;
@@ -314,10 +333,11 @@
 .last-secdiv1>h1,
 .last-secdiv2 h1,
 .last-secdiv2 span {
-    font-family: "New Rocker", system-ui;
-    font-weight: 500;
+   font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .upcdiv1>h3,
@@ -340,12 +360,17 @@
 .upcdiv2>p,
 .descrip-tion>p,
 .passion>p {
-    font-family: "Quintessential", serif;
+ font-family: "Ledger", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
 }
-
+.passion>p{
+    font-family: "Ledger", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
 .upcdiv2 {
     cursor: grab;
     display: flex;
@@ -363,26 +388,31 @@
 }
 
 .the>h1 {
-    font-size: 190px;
-    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 140px;
+  font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: 1;
     font-weight: 600;
 }
-
+.thefst{
+  width: 40%;
+}
+.afterfst{
+  width: 50%;
+}
 .full>h1 {
-    font-size: 150px;
-    font-family: "Big Shoulders Inline", sans-serif;
-    font-optical-sizing: auto;
+    font-size: 170px;
+  font-family: "Rozha One", serif;
+    /* font-optical-sizing: auto; */
     font-style: normal;
     line-height: 1;
     font-weight: 600;
 }
 
 .perfect>h1 {
-    font-size: 190px;
-    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 180px;
+      font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     line-height: 1;
@@ -390,7 +420,7 @@
 }
 
 .artisan {
-    height: auto;
+    height: 200px;
     width: 60%;
     border-radius: 3px;
     padding: 10px 10px;
@@ -399,8 +429,8 @@
 }
 
 .artisan>h1 {
-    font-size: 270px;
-    font-family: "Big Shoulders Inline", sans-serif;
+    font-size: 128px;
+  font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 500;
@@ -412,7 +442,8 @@
 }
 
 .reason>h3, .myprj h1 {
-    font-family: "New Rocker", system-ui;
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
@@ -425,12 +456,16 @@
   position: relative;
   width: 90%;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 50px auto;
   height: 400px;
 }
 
 
 .panel1 {
+   background-image: url(./multimedia/nicole\ background.jpg);
+   outline: 2px solid black;
+  outline-offset: 15px;
+  border: 0.5px dashed black;
   position: absolute;
   top: 0;
   left: 20%;
@@ -445,6 +480,10 @@
 }
 
 .panel2 {
+   background-image: url(./multimedia/nicole\ background.jpg);
+  outline: 2px solid black;
+  outline-offset: 15px;
+  border: 0.5px dashed black;
   position: absolute;
   top: 0;
   left: 40%;
@@ -454,10 +493,14 @@
   cursor: grab;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(130, 124, 124, 0.3);
   transition: transform 0.6s ease, z-index 0.4s;
 }
 .panel3 {
+   background-image: url(./multimedia/nicole\ background.jpg);
+   outline: 2px solid black;
+  outline-offset: 15px;
+ border: 0.5px dashed black;
   position: absolute;
   top: 0;
   left: 60%;
@@ -471,6 +514,11 @@
   transition: transform 0.6s ease, z-index 0.4s;
 }
 .panel4 {
+  
+  background-image: url(./multimedia/nicole\ background.jpg);
+   outline: 2px solid black;
+  outline-offset: 15px;
+  border: 0.5px dashed black;
   position: absolute;
   top: 0;
   left: 80%;
@@ -491,10 +539,12 @@
 }
 
 .panel .panel-title {
+    font-family: "Ledger", serif;
+    font-weight: 500;
   position: absolute;
   bottom: 20px;
   left: 20px;
-  color: #fff;
+  color: #000;
   font-size: 1.5rem;
   font-weight: bold;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
@@ -507,15 +557,15 @@
 .panel:nth-child(4) { transform: translateX(calc(-50% + 30px)); z-index: 4; }
 
 /* Hover effects — pull left/right */
-.panel:nth-child(1):hover { transform: translateX(calc(-50% - 200px)) scale(1.05); z-index: 10; }
-.panel:nth-child(2):hover { transform: translateX(calc(-50% - 200px)) scale(1.05); z-index: 10; }
-.panel:nth-child(3):hover { transform: translateX(calc(-50% + 200px)) scale(1.05); z-index: 10; }
-.panel:nth-child(4):hover { transform: translateX(calc(-50% - 200px)) scale(1.05); z-index: 10; }
+.panel:nth-child(1):hover { transform: translateX(calc(-50% + 200px)) scale(1); z-index: 10; }
+.panel:nth-child(2):hover { transform: translateX(calc(-50% - 200px)) scale(1); z-index: 10; }
+.panel:nth-child(3):hover { transform: translateX(calc(-50% + 200px)) scale(1); z-index: 10; }
+.panel:nth-child(4):hover { transform: translateX(calc(-50% - 200px)) scale(1); z-index: 10; }
 
 
 
 .cont-text {
-    font-family: "Quintessential", serif;
+     font-family: "Ledger", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 60px;
@@ -565,7 +615,7 @@
 }
 
 .emailme {
-    font-family: "Big Shoulders Inline", sans-serif;
+   font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 500;
@@ -578,7 +628,8 @@
 }
 
 .ft-div2 h1,.socialmed {
-    font-family: "New Rocker", system-ui;
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
     text-decoration: none;
     color: black;
     font-weight: 400;
