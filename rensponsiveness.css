@@ -1,7 +1,7 @@
 @media screen and (max-width: 1025px) {
 
     .sec2-div1>h1 {
-        font-size: 280px;
+        font-size: 220px;
     }
 
 .stats-container {
@@ -21,9 +21,17 @@
     }
 
     .sec4-div1 h1 {
-        font-size: 240px;
+        font-size: 150px;
     }
-
+.after-fst{
+    margin-left: 130px;
+}
+.perfect>h1{
+    font-size: 160px;
+}
+.artisan>h1 {
+    font-size: 107px;
+}
     .web-dev {
         height: 350px;
         width: 450px;
@@ -32,11 +40,21 @@
 }
 
 @media screen and (max-width: 769px) {
- 
-    .sec2-div1>h1 {
-        font-size: 220px;
+    .last-secdiv1{
+        padding: 10px;
     }
-
+ .last-secdiv1link img{
+    width: 230px;
+ }
+    .sec2-div1>h1 {
+        font-size: 170px;
+    }
+.after-fst{
+    margin-left: 200px;
+}
+.after-fst img{
+    width: 100%;
+}
     .ocp-div>h1 {
         font-size: 25px;
     }
@@ -48,15 +66,18 @@
     }
 
     .sec4-div1 h1 {
-        font-size: 168px;
+        font-size: 118px;
     }
 
     .aim>h1 {
         font-size: 16px;
     }
-
+    .working img{
+        height: 150px;
+        width: 180px;
+    }
     .perfect>h1 {
-        font-size: 145px;
+        font-size: 140px;
     }
 
     .artisan {
@@ -64,9 +85,11 @@
     }
 
     .artisan>h1 {
-        font-size: 160px;
+        font-size: 83px;
     }
-
+    .passion>p{
+        font-size: 11px;
+    }
     .horizontal-accordion {
         /* display: grid !important; */
         grid-template-columns: 1fr 1fr;
@@ -77,11 +100,12 @@
     }
 }
 @media screen and (max-width: 500px) {
-    .last-sec{
-        display: none;
-    }
+  
     .sec2-div1{
         margin-top: 100px;
+    }
+    .panel1,.panel4{
+        display: none;
     }
         .sec2-div1>h1{
             font-size: 110px;
@@ -157,13 +181,31 @@
 }
 @media screen and (max-width: 426px) {
     .last-sec{
-        display: none;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .sec2-div1{
         margin-top: 100px;
     }
         .sec2-div1>h1{
-            font-size: 110px;
+            font-size: 98px;
+        }
+        .the h1{
+            font-size: 190px;
+            padding: 10px;
+        }
+        .full>h1{
+            font-size: 150px;
+            padding: 10px;
+        }
+        .perfect>h1{
+            font-size: 105px;
+        }
+        .passion>p{
+            font-size: 15px;
         }
             .ocp-div>h1{
                 font-size: 50px;
@@ -225,7 +267,7 @@
             width: fit-content;
         }
         .artisan>h1{
-            font-size: 140px;
+            font-size: 74px;
         }
         .horizontal-accordion{
             display: grid;
@@ -251,16 +293,23 @@
 }
 @media screen and (max-width: 376px) {
         .sec2-div1>h1{
-            font-size: 100px;
+            font-size: 80px;
+        }
+        .full>h1{
+            font-size: 130px;
         }
         .full-ocp>h1{
             font-size: 55px;
         }
         .perfect>h1 {
-            font-size: 128px;
+            font-size: 91px;
+            padding: 0px 10px;
         }
         .artisan>h1{
-            font-size: 120px;
+            font-size: 65px;
+        }
+        .panel2{
+            display: none;
         }
     
 }
@@ -280,27 +329,28 @@
 }
 @media screen and (max-width: 321px) {
     .sec2-div1>h1{
-        font-size: 80px;
+        font-size: 65px;
     }
+        .the h1{
+            font-size: 165px;
+        }
+        .full>h1{
+            font-size: 110px;
+        }
     .full-ocp>h1{
         font-size: 43px;
     }
     .perfect>h1{
-        font-size: 107px;
+        font-size: 77px;
     }
         .artisan>h1{
-            font-size: 96px;
+            font-size: 54px;
+        }
+        .panel3{
+            display: none;
         }
 }
 
-
-/* -----------------------------
-  Responsive overrides for accordion panels
-  Paste this AFTER your base accordion CSS
-   - keeps your widths and base layout intact
-   - reduces pull distances to avoid horizontal overflow
-   - makes mobile stack centered + staggered animation
------------------------------- */
 
 /* safe defaults using clamped CSS variables (no change to base code needed) */
 .horizontal-panels {
@@ -401,7 +451,7 @@
   /* vertical layout */
   .horizontal-panels {
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
     gap: 18px;
     height: auto;

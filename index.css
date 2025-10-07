@@ -182,7 +182,7 @@
 }
 
 .sec2-div1>h1 {
-    font-size: 310px;
+    font-size: 280px;
   font-family: "Rozha One", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -245,7 +245,7 @@ text-decoration: 0.5px line-through;
     font-family: "Ledger", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14.5px;
+    font-size: 10.5px;
     text-decoration: none;
     color: #000;
 }
@@ -363,7 +363,7 @@ text-decoration: 0.5px line-through;
  font-family: "Ledger", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
 }
 .passion>p{
     font-family: "Ledger", serif;
@@ -465,7 +465,7 @@ text-decoration: 0.5px line-through;
    background-image: url(./multimedia/nicole\ background.jpg);
    outline: 2px solid black;
   outline-offset: 15px;
-  border: 0.5px dashed black;
+  border: 2px dashed black;
   position: absolute;
   top: 0;
   left: 20%;
@@ -483,7 +483,7 @@ text-decoration: 0.5px line-through;
    background-image: url(./multimedia/nicole\ background.jpg);
   outline: 2px solid black;
   outline-offset: 15px;
-  border: 0.5px dashed black;
+  border: 2px dashed black;
   position: absolute;
   top: 0;
   left: 40%;
@@ -500,7 +500,7 @@ text-decoration: 0.5px line-through;
    background-image: url(./multimedia/nicole\ background.jpg);
    outline: 2px solid black;
   outline-offset: 15px;
- border: 0.5px dashed black;
+ border: 2px dashed black;
   position: absolute;
   top: 0;
   left: 60%;
@@ -518,7 +518,7 @@ text-decoration: 0.5px line-through;
   background-image: url(./multimedia/nicole\ background.jpg);
    outline: 2px solid black;
   outline-offset: 15px;
-  border: 0.5px dashed black;
+  border: 2px dashed black;
   position: absolute;
   top: 0;
   left: 80%;
@@ -557,10 +557,10 @@ text-decoration: 0.5px line-through;
 .panel:nth-child(4) { transform: translateX(calc(-50% + 30px)); z-index: 4; }
 
 /* Hover effects — pull left/right */
-.panel:nth-child(1):hover { transform: translateX(calc(-50% + 200px)) scale(1); z-index: 10; }
-.panel:nth-child(2):hover { transform: translateX(calc(-50% - 200px)) scale(1); z-index: 10; }
-.panel:nth-child(3):hover { transform: translateX(calc(-50% + 200px)) scale(1); z-index: 10; }
-.panel:nth-child(4):hover { transform: translateX(calc(-50% - 200px)) scale(1); z-index: 10; }
+.panel:nth-child(1):hover { transform: translateX(calc(-90% + 200px)) scale(1) !important; z-index: 10; }
+.panel:nth-child(2):hover { transform: translateX(calc(-90% - 200px)) scale(1) !important; z-index: 10; }
+.panel:nth-child(3):hover { transform: translateX(calc(-90% + 200px)) scale(1) !important; z-index: 10; }
+.panel:nth-child(4):hover { transform: translateX(calc(-90% + 200px)) scale(1) !important; z-index: 10; }
 
 
 
